@@ -40,7 +40,7 @@ npm run build
 ```
 
 ## 📬 Contact Me
-### 📧 Email: [prantik.g1996@gmail.com](prantik.g1996@gmail.com)
+### 📧 Email: [prantik.g1996@gmail.com](mailto:prantik.g1996@gmail.com)
 <!-- ### 🔗 Portfolio: www.yourportfolio.com -->
 <!-- ### 🐦 Twitter: @yourhandle -->
 ### 👨‍💻 LinkedIn: [https://www.linkedin.com/in/prantikghosh96/](https://www.linkedin.com/in/prantikghosh96/)
