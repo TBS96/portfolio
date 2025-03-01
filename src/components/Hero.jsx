@@ -10,7 +10,7 @@ const Hero = () => {
                 <h1 className='text-4xl md:text-5xl font-bold'>I am a <span className='text-red-500'>Front-end Web Developer</span></h1>
                 <p className="text-gray-400">Willing to work as a <span className='font-bold'>full-time / freelance</span> developer.</p>
 
-                <a href='/assets/Prantik-Ghosh_Frontend-Web-Developer_22.02.25.pdf' className='inline-flex items-center gap-2 px-6 py-3 bg-red-500 hover:bg-red-600/20 focus:bg-red-700/40 text-white font-semibold rounded-lg shadow-lg shadow-red-400 hover:shadow-red-500 focus:shadow-red-600 transition outline' download>Download Resume
+                <a href='https://drive.usercontent.google.com/u/0/uc?id=1C6Q56cu_sRJy-o2p3b9Lktn_tKb93fva&export=download' className='inline-flex items-center gap-2 px-6 py-3 bg-red-500 hover:bg-red-600/20 focus:bg-red-700/40 text-white font-semibold rounded-lg shadow-lg shadow-red-400 hover:shadow-red-500 focus:shadow-red-600 transition outline' download>Download Resume
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 animate-bounce">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                     </svg>
@@ -44,7 +44,7 @@ const Hero = () => {
             <div className='relative w-full md:w-[400px] mt-10 md:mt-0'>
                 <div className='absolute size-64 bg-indigo-900 rounded-full blur-3xl opacity-80 left-10 top-10'></div>
 
-                <img src="/assets/profile.png" alt="profile" className='w-72 rounded-lg shadow-lg relative z-10' />
+                <img src="/assets/profile.svg" alt="profile" className='w-72 rounded-lg shadow-lg relative z-10' />
             </div>
 
 
