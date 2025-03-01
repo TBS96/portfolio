@@ -16,7 +16,7 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 - 🚀 **React 19** – JavaScript Library for UI  
 - ⚡ **Vite** – Fast & lightweight build tool  
 - 🎨 **Tailwind CSS 4** – Utility-first CSS framework  
-- 🎨 **DaisyUI 5.0**
+- 🎨 **DaisyUI 5** – Tailwind CSS components library
 - 🔄 **React Router** – For smooth navigation  
 - 🗂️ **Redux Toolkit** – State management
 
