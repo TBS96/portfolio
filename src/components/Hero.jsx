@@ -44,7 +44,7 @@ const Hero = () => {
             <div className='relative w-full md:w-[400px] mt-10 md:mt-0'>
                 <div className='absolute size-64 bg-indigo-900 rounded-full blur-3xl opacity-80 left-10 top-10'></div>
 
-                <img src="/assets/profile.svg" alt="profile" className='w-72 rounded-lg shadow-lg relative z-10' />
+                <img src="/profile.svg" alt="profile" className='w-72 rounded-lg shadow-lg relative z-10' />
             </div>
 
 
