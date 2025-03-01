@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Hero = () => {
     return (
-        <section className='min-h-screen relative flex items-center justify-between mx-2 md:mx-0 px-10 lg:px-24 py-16 bg-blue-800/60 text-white'>
+        <section className='min-h-screen relative flex items-center justify-between px-10 lg:px-24 pb-10 bg-blue-900/30 text-white shadow-2xs hover:shadow-2xl transition'>
             
             <div className='space-y-5 max-w-lg'>
                 <p className='text-gray-400 text-xl'>Hi, I'm Prantik Ghosh</p>
@@ -39,12 +39,11 @@ const Hero = () => {
                     </Link>
                 </div>
             </div>
-
-            {/* TODO: Make it responsive */}
+            
             <div className='relative w-full md:w-[400px] mt-10 md:mt-0'>
-                <div className='absolute size-64 bg-indigo-900 rounded-full blur-3xl opacity-80 left-10 top-10'></div>
+                <div className='absolute size-full bg-indigo-600/60 rounded-full blur-3xl left-10 top-10 -translate-x-5 translate-y-5 md:-translate-x-8 md:translate-y-8'></div>
 
-                <img src="/profile.svg" alt="profile" className='w-72 rounded-lg shadow-lg relative z-10' />
+                <img src="/profile.svg" alt="profile" className='size-full object-cover rounded-full shadow-lg hover:shadow-2xl relative z-10' />
             </div>
 
 
