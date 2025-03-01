@@ -1,4 +1,4 @@
-# 🚀 My Portfolio
+# 🚀 My Portfolio `(wip)`
 ## Modern & Interactive Portfolio Website
 Welcome to my personal portfolio! This website showcases my skills, projects, and experiences as a ***Frontend Developer***. Built with the latest technologies to provide a seamless user experience.
 
@@ -16,6 +16,7 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 - 🚀 **React 19** – JavaScript Library for UI  
 - ⚡ **Vite** – Fast & lightweight build tool  
 - 🎨 **Tailwind CSS 4** – Utility-first CSS framework  
+- 🎨 **DaisyUI 5.0**
 - 🔄 **React Router** – For smooth navigation  
 - 🗂️ **Redux Toolkit** – State management
 
@@ -41,6 +42,6 @@ npm run build
 
 ## 📬 Contact Me
 ### 📧 Email: [prantik.g1996@gmail.com](mailto:prantik.g1996@gmail.com)
-<!-- ### 🔗 Portfolio: www.yourportfolio.com -->
+### 🔗 Portfolio: [https://prantikghosh.vercel.app/](https://prantikghosh.vercel.app/)
 <!-- ### 🐦 Twitter: @yourhandle -->
 ### 👨‍💻 LinkedIn: [https://www.linkedin.com/in/prantikghosh96/](https://www.linkedin.com/in/prantikghosh96/)
