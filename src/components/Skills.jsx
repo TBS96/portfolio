@@ -125,7 +125,8 @@ const Skills = () => {
                 <h2 className='text-4xl font-bold text-center text-error mb-5'>Skills / Tech Stack</h2>
                 <p className='text-info font-semibold text-center mb-10 animate-pulse'>Click each of <span className='text-warning'>{skills.length}</span> tech-stacks to read DOCS!</p>
 
-                <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 justify-center items-center'>
+                {/* <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 justify-center items-center'> */}
+                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 justify-center items-center'>
                     {skills.map(({ name, icon, hoverText }, index) => (
                         <div 
                             key={index} 
