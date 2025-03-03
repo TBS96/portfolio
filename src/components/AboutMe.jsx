@@ -4,24 +4,53 @@ const AboutMe = () => {
     return (
         <section className='py-16 px-6 md:px-20 text-white font-medium my-5 shadow-2xs hover:shadow-2xl transition glass'>
 
-            <div className='max-w-5xl mx-auto text-center'>
+            <div className='max-w-5xl mx-auto bg-gray-800/10 p-6 rounded-lg shadow-lg mb-6'>
 
-                <h2 className='text-4xl font-bold text-red-500 mb-4'>About Me</h2>
+                <h3 className='text-4xl font-bold text-center text-red-500 mb-6'>Profile Summary</h3>
 
-                <p className='text-lg text-gray-300 leading-relaxed'>
-                    I'm a<span className='text-red-400 font-semibold'> passionate</span>
-                    <span className='text-red-400 font-semibold'> Frontend Web Developer</span> dedicated to crafting
-                    beautiful and responsive web experiences. I specialize in modern technologies like
-                    <span className='text-red-500 font-bold'> React.js, Tailwind CSS, and JavaScript</span>.
-                </p>
-
-                <p className='text-lg text-gray-300 leading-relaxed mt-4'>
-                    I love solving problems, <span className='text-red-400 font-bold'>writing clean code</span>, and always learning new technologies.
-                    Currently, I'm focused on building dynamic, user-friendly applications that provide
-                    seamless user experiences.
-                </p>
+                <ul className='list-disc list-inside text-gray-300 space-y-2 text-lg'>
+                    <li className='hover:text-white transition'>
+                        Aspiring Front-End Developer with expertise in <span className='font-bold text-info'>React.js, Tailwind CSS, and Bootstrap</span>.
+                    </li>
+                    <li className='hover:text-white transition'>
+                        Engineered <span className='font-bold text-success'>responsive & pixel-perfect</span> web interfaces for seamless multi-device performance.
+                    </li>
+                    <li className='hover:text-white transition'>
+                        Optimized web performance, improving <span className='font-bold text-primary'>load times & user engagement</span>.
+                    </li>
+                    <li className='hover:text-white transition'>
+                        Translated <span className='font-bold text-error'>complex design concepts</span> into functional, high-performance applications.
+                    </li>
+                    <li className='hover:text-white transition'>
+                        Passionate about <span className='font-bold text-warning'>innovation, adaptability, and contributing</span> to scalable front-end solutions.
+                    </li>
+                </ul>
 
             </div>
+
+
+            <div className='max-w-5xl mx-auto text-center bg-gray-800/10 p-6 rounded-lg shadow-lg'>
+
+                <h2 className='text-4xl font-bold text-red-500 mb-6'>About Me</h2>
+
+                <div className='max-w-3xl mx-auto mt-6'>
+                    <p className='text-lg text-gray-300 leading-relaxed'>
+                        I'm a <span className='text-red-400 font-semibold'>passionate</span>
+                        <span className='text-red-400 font-semibold'> Frontend Web Developer</span> dedicated to crafting
+                        beautiful and responsive web experiences. I specialize in modern technologies like
+                        <span className='text-red-500 font-bold'> React.js, Tailwind CSS, and JavaScript</span>.
+                    </p>
+
+                    <p className='text-lg text-gray-300 leading-relaxed mt-4'>
+                        I love solving problems, <span className='text-red-400 font-bold'>writing clean code</span>, and always learning new technologies.
+                        Currently, I'm focused on building dynamic, user-friendly applications that provide
+                        seamless user experiences.
+                    </p>
+                </div>
+
+            </div>
+
+
 
         </section>
     )
