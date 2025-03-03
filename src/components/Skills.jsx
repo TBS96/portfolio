@@ -22,6 +22,11 @@ const Skills = () => {
             hoverText: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
         },
         {
+            name: 'JSON',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg',
+            hoverText: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON'
+        },
+        {
             name: 'React.js',
             icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
             hoverText: 'https://react.dev/reference/react'
@@ -37,9 +42,24 @@ const Skills = () => {
             hoverText: 'https://tailwindcss.com/docs/installation/using-vite'
         },
         {
+            name: 'Material UI',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg',
+            hoverText: 'https://mui.com/material-ui/getting-started/'
+        },
+        {
             name: 'Bootstrap',
             icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg',
             hoverText: 'https://getbootstrap.com/docs/5.3/getting-started/introduction/'
+        },
+        {
+            name: 'Firebase',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg',
+            hoverText: 'https://firebase.google.com/docs/auth?_gl=1*lrtmgh*_up*MQ..&gclid=CjwKCAiAw5W-BhAhEiwApv4goN-nFN9bqVqiajGOM1qCp-AgTZ_0Bd0AAVSzt-IkrtayG3uf_M8j9xoCli4QAvD_BwE&gclsrc=aw.ds'
+        },
+        {
+            name: 'appwrite',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/appwrite/appwrite-original.svg',
+            hoverText: 'https://appwrite.io/docs'
         },
         {
             name: 'Git',
@@ -50,6 +70,46 @@ const Skills = () => {
             name: 'GitHub',
             icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
             hoverText: 'https://github.com/tbs96'
+        },
+        {
+            name: 'GitLab',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg',
+            hoverText: 'https://gitlab.com/TBS96'
+        },
+        {
+            name: 'Vercel',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg',
+            hoverText: 'https://vercel.com/prantik-ghoshs-projects'
+        },
+        {
+            name: 'Netlify',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg',
+            hoverText: 'https://app.netlify.com/teams/prantikg96/sites'
+        },
+        {
+            name: 'npm',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg',
+            hoverText: 'https://www.npmjs.com/'
+        },
+        {
+            name: 'VS Code',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg',
+            hoverText: 'https://code.visualstudio.com/'
+        },
+        {
+            name: 'Node.js',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg',
+            hoverText: 'https://nodejs.org/docs/latest/api/'
+        },
+        {
+            name: 'Nodemon',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodemon/nodemon-original.svg',
+            hoverText: 'https://nodemon.io/'
+        },
+        {
+            name: 'Express.js',
+            icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg',
+            hoverText: 'https://expressjs.com/'
         },
     ];
 
@@ -63,7 +123,7 @@ const Skills = () => {
             <div className='container mx-auto px-5'>
 
                 <h2 className='text-4xl font-bold text-center text-error mb-5'>Skills / Tech Stack</h2>
-                <p className='text-sm text-info font-semibold text-center mb-10 animate-pulse'>Click each of <span className='text-warning'>{skills.length}</span> skills to read DOCS!</p>
+                <p className='text-info font-semibold text-center mb-10 animate-pulse'>Click each of <span className='text-warning'>{skills.length}</span> tech-stacks to read DOCS!</p>
 
                 <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 justify-center items-center'>
                     {skills.map(({ name, icon, hoverText }, index) => (
