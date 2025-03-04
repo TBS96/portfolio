@@ -1,12 +1,11 @@
 import React from 'react'
-import { AboutMe, Hero, Skills } from '../components'
+import { AboutMe, Hero } from '../components'
 
 const Home = () => {
     return (
         <>
             <Hero />
             <AboutMe />
-            <Skills />
         </>
     )
 }

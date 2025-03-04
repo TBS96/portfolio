@@ -4,7 +4,7 @@ import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import store from './store/store.js'
-import { Contact, Home, Projects } from './pages/index.js'
+import { Contact, Home, Projects, Skills } from './pages/index.js'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +15,10 @@ const router = createBrowserRouter([
         // path: '/',
         index: true,  // recommended for "Home", when using nested routes
         element: <Home />
+      },
+      {
+        path: '/skills',
+        element: <Skills />
       },
       {
         path: '/projects',

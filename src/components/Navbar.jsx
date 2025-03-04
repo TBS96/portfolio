@@ -12,6 +12,11 @@ const Navbar = () => {
             active: true
         },
         {
+            name: 'Skills',
+            slug: '/skills',
+            active: true
+        },
+        {
             name: 'Projects',
             slug: '/projects',
             active: true
