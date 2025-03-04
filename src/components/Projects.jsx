@@ -46,6 +46,61 @@ const Projects = () => {
             thumbnail: 'https://i.ibb.co/pv67z2yB/recipe-finder.png',
             linkURL: 'https://tbs96.github.io/recipe-finder-app/'
         },
+        {
+            name: 'BMI Calculator',
+            thumbnail: 'https://i.ibb.co/G3NzqwLh/bmi-calculator.png',
+            linkURL: 'https://tbs96.github.io/bmi-calculator/'
+        },
+        {
+            name: 'Manual Image Slider',
+            thumbnail: 'https://i.ibb.co/ccbtpn5f/image-slider.png',
+            linkURL: 'https://tbs96.github.io/image-slider/'
+        },
+        {
+            name: 'Restaurant Tip Calculator',
+            thumbnail: 'https://i.ibb.co/RTw1t5SS/restaurant-tip-calculator.png',
+            linkURL: 'https://tbs96.github.io/restaurant-tip-calculator/'
+        },
+        {
+            name: 'Random Password Generator',
+            thumbnail: 'https://i.ibb.co/tMgzNBP8/random-password-generator.png',
+            linkURL: 'https://tbs96.github.io/random-password-generator/'
+        },
+        {
+            name: 'Gool Gool Weather',
+            thumbnail: 'https://i.ibb.co/zVmV1tFY/weather-app.png',
+            linkURL: 'https://tbs96.github.io/weather-app/'
+        },
+        {
+            name: 'Dynamic Todo List',
+            thumbnail: 'https://i.ibb.co/gxrJxWP/dynamic-todo-list.png',
+            linkURL: 'https://tbs96.github.io/dynamic-to-do-list/'
+        },
+        {
+            name: 'Image to Text Converter',
+            thumbnail: 'https://i.ibb.co/cK6BZ6sW/img-to-text-converter.png',
+            linkURL: 'https://tbs96.github.io/img-to-text-converter-app/'
+        },
+        {
+            name: 'Mindful Breathing Timer',
+            thumbnail: 'https://i.ibb.co/8n72T0Mh/mindful-breathing-timer.png',
+            linkURL: 'https://tbs96.github.io/mindful-breathing-timer/'
+        },
+        {
+            name: 'Random Color Code Generator',
+            thumbnail: 'https://i.ibb.co/bMF8GshQ/rgb-color-Code-generator.png',
+            linkURL: 'https://tbs96.github.io/random-rgb-color-generator/'
+        },
+        {
+            name: 'E-commerce Website Layout',
+            thumbnail: 'https://i.ibb.co/WvRSYLRy/ecommerce-layout.png',
+            linkURL: 'https://tbs96.github.io/bootstrap-project-1/'
+        },
+        {
+            name: 'Smart-Coders Layout',
+            thumbnail: 'https://i.ibb.co/ds0kGwj9/smart-coders-layout.png',
+            linkURL: 'https://tbs96.github.io/tailwindcss-project-1-dist/'
+        },
     ];
 
     const handleProjectClick = (index) => {
