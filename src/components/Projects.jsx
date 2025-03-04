@@ -32,6 +32,11 @@ const Projects = () => {
             linkURL: 'https://tbs96.github.io/currencyConverterReact/'
         },
         {
+            name: 'Password Strength Checker',
+            thumbnail: 'https://i.ibb.co/39VKP0qF/pass-Gen-strength-Checker.png',
+            linkURL: 'https://tbs96.github.io/random-password-generator-strength-checker/'
+        },
+        {
             name: 'Mini E-commerce',
             thumbnail: 'https://i.ibb.co/5PPwzZM/mini-ecommerce.png',
             linkURL: 'https://tbs96.github.io/mini-ecommerce/'
