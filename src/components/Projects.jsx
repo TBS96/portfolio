@@ -26,6 +26,26 @@ const Projects = () => {
             thumbnail: 'https://i.ibb.co/NndWLSyT/manage-Todos-RTK.png',
             linkURL: 'https://tbs96.github.io/manageTodosRTK/'
         },
+        {
+            name: 'Currency Converter',
+            thumbnail: 'https://i.ibb.co/1Gp8gbWs/currency-Converter.png',
+            linkURL: 'https://tbs96.github.io/currencyConverterReact/'
+        },
+        {
+            name: 'Mini E-commerce',
+            thumbnail: 'https://i.ibb.co/5PPwzZM/mini-ecommerce.png',
+            linkURL: 'https://tbs96.github.io/mini-ecommerce/'
+        },
+        {
+            name: 'Typing Speed Test',
+            thumbnail: 'https://i.ibb.co/zHVP9B8P/typing-speed-test.png',
+            linkURL: 'https://tbs96.github.io/typing-speed-test/'
+        },
+        {
+            name: 'Recipe Finder',
+            thumbnail: 'https://i.ibb.co/pv67z2yB/recipe-finder.png',
+            linkURL: 'https://tbs96.github.io/recipe-finder-app/'
+        },
     ];
 
     const handleProjectClick = (index) => {
