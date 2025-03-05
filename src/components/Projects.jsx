@@ -114,7 +114,7 @@ const Projects = () => {
 
     return (
 
-        <section className='py-16 text-white shadow-2xs hover:shadow-2xl transition glass rounded-sm'>
+        <section className='py-16 shadow-2xs hover:shadow-2xl transition glass rounded-sm'>
             <div className='container mx-auto px-5'>
 
                 <h2 className='text-4xl font-bold text-center text-error mb-5'>Projects</h2>
@@ -125,7 +125,7 @@ const Projects = () => {
                         <div
                             key={index}
                             onClick={() => handleProjectClick(index)}
-                            className='relative flex flex-col items-center gap-2 p-4 rounded-xl bg-gray-800/80 hover:bg-gray-700 shadow-lg hover:shadow-2xl transition size-full overflow-hidden glass cursor-pointer'>
+                            className='relative flex flex-col items-center gap-2 p-4 rounded-xl shadow-lg hover:shadow-2xl transition size-full overflow-hidden glass cursor-pointer'>
 
                             <div className={`flex flex-col items-center transition duration-300 ${activeProject === index ? 'blur-md opacity-30' : ''}`}>
                                 <img src={thumbnail} alt={name} className='w-full h-48 rounded-xl hover:shadow-inner' />
@@ -133,7 +133,7 @@ const Projects = () => {
                             </div>
 
                             {activeProject === index && (
-                                <div className='absolute inset-0 flex justify-center items-center text-xl font-bold text-white'>
+                                <div className='absolute inset-0 flex justify-center items-center text-xl font-bold'>
 
                                     <span className='text-error'>{name}</span>
                                     <Link to={linkURL} target='_blank'>
