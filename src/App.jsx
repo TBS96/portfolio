@@ -16,8 +16,9 @@ const App = () => {
   }, []);
 
   return !loading ? (
-    <div className='min-h-screen bg-gradient-to-br from-red-300 to-blue-500'>
+    <div className='min-h-screen'>
       <Navbar />
+      <marquee className='font-bold'>Currently working on Themes. Please Bear!</marquee>
       <Container>
         <main>
           <Outlet />
