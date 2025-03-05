@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <footer className='w-full bg-white/10 backdrop-blur-sm py-4 mt-10'>
+    <footer className='w-full bg-slate-950/10 backdrop-blur-sm py-4 mt-10'>
       <div className='max-w-[2580px] mx-auto px-4 flex flex-col md:flex-row justify-between items-center'>
 
         <p className='text-sm'>
