@@ -147,7 +147,7 @@ const Navbar = () => {
                         <NavLink
                             to={slug}
                             className={({ isActive }) =>
-                                `block px-4 py-2 my-2 text-center rounded-lg transition ${isActive ? 'bg-gray-700' : 'hover:bg-gray-700 focus:bg-gray-900'
+                                `block px-4 py-2 my-2 text-center rounded-lg transition ${isActive ? 'bg-indigo-600 text-white' : 'hover:text-white hover:bg-indigo-600'
                                 }`
                             }
                             onClick={() => setMenubar(false)}
