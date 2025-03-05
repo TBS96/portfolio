@@ -139,7 +139,7 @@ const Skills = () => {
     };
 
     return (
-        <section className='py-16 bg-gray-900/30 text-white shadow-2xs hover:shadow-2xl transition'>
+        <section className='py-16 bg-gray-900/30 shadow-2xs hover:shadow-2xl transition'>
             <div className='container mx-auto px-5'>
 
                 <h2 className='text-4xl font-bold text-center text-error mb-5'>Skills / Tech Stack</h2>
@@ -151,7 +151,7 @@ const Skills = () => {
                         <div 
                             key={index} 
                             onClick={() => handleSkillClick(index)} 
-                            className='relative flex flex-col items-center gap-2 p-4 card bg-gray-800 hover:bg-gray-700 shadow-lg hover:shadow-2xl transition w-full h-36 overflow-hidden glass cursor-pointer'>
+                            className='relative flex flex-col items-center gap-2 p-4 card shadow-lg hover:shadow-2xl transition w-full h-36 overflow-hidden glass cursor-pointer'>
 
                             <div className={`flex flex-col items-center transition duration-300 ${activeSkill === index ? 'blur-md opacity-30' : ''}`}>
                                 <img src={icon} alt={name} className='size-20 object-contain' />
@@ -159,7 +159,7 @@ const Skills = () => {
                             </div>
 
                             {activeSkill === index && (
-                                <div className='absolute inset-0 flex justify-center items-center text-xl font-bold text-white'>
+                                <div className='absolute inset-0 flex justify-center items-center text-xl font-bold'>
                                     <Link to={linkURL} target='_blank'>
                                         Visit: <span className='text-error'>{linkURL.replace(linkURL, name)}</span>
                                     </Link>
