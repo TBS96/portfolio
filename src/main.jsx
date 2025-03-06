@@ -4,7 +4,12 @@ import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import store from './store/store.js'
-import { Contact, Home, Projects, Skills } from './pages/index.js'
+import { lazy } from 'react'
+
+const Home = lazy(() => import('./pages/Home.jsx'));
+const Skills = lazy(() => import('./pages/Skills.jsx'));
+const Projects = lazy(() => import('./pages/Projects.jsx'));
+const Contact = lazy(() => import('./pages/Contact.jsx'));
 
 const router = createBrowserRouter([
   {
