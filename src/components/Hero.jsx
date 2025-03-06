@@ -10,11 +10,36 @@ const Hero = () => {
                 <h1 className='text-4xl md:text-5xl font-bold'>I'm a <span className='text-red-500'>Front-end Web Developer</span></h1>
                 <p>Willing to work as a <span className='font-bold'>full-time / freelance</span> developer.</p>
 
-                <a href='https://drive.usercontent.google.com/u/0/uc?id=1C6Q56cu_sRJy-o2p3b9Lktn_tKb93fva&export=download' className='inline-flex items-center gap-2 px-6 py-3 bg-red-500 hover:bg-red-600/20 focus:bg-red-700/40 text-white font-semibold rounded-lg shadow-lg shadow-red-400 hover:shadow-red-500 focus:shadow-red-600 transition outline' download>Download Resume
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 animate-bounce">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                    </svg>
-                </a>
+                <div className="dropdown dropdown-center">
+                    <div tabIndex={0} role="button" className="btn btn-block px-6 py-5 text-lg bg-red-500 hover:bg-red-600/20 focus:bg-red-700/40 shadow-lg shadow-red-400 hover:shadow-red-500 focus:shadow-red-600 transition outline">Resume
+                        <svg
+                            width='12px'
+                            height='12px'
+                            className='inline-block h-2 w-2 fill-current opacity-60'
+                            xmlns='http://www.w3.org/2000/svg'
+                            viewBox='0 0 2048 2048'
+                        >
+                            <path d='M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z'></path>
+                        </svg>
+                    </div>
+                    <ul tabIndex={0} className="dropdown-content menu bg-base-300/90 rounded-box z-1 w-52 p-2 shadow-sm">
+                        <li>
+                            <a href='https://drive.usercontent.google.com/u/0/uc?id=1C6Q56cu_sRJy-o2p3b9Lktn_tKb93fva&export=download' target='_blank' download className='text-lg'>Download
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 animate-bounce">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href='https://drive.google.com/file/d/1C6Q56cu_sRJy-o2p3b9Lktn_tKb93fva/view' target='_blank' className='text-lg'>View
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 animate-spin">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
                 <div className='flex justify-between md:justify-around space-x-4 mt-4'>
                     <Link to='https://github.com/tbs96' className='btn btn-circle btn-sm btn-primary' target='_blank' title='GitHub'>
