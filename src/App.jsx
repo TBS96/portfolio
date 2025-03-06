@@ -13,7 +13,7 @@ const App = () => {
     }>
       <div className='min-h-screen'>
         <Navbar />
-        <marquee className='font-bold'>Currently working on Themes. Please Bear!</marquee>
+        <marquee behavior="alternate"  className='font-bold'>Currently working on projects' description. Please Bear!</marquee>
         <Container>
           <main>
             <Outlet />
