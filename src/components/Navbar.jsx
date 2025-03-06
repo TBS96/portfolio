@@ -41,7 +41,7 @@ const Navbar = () => {
                 </h1>
 
                 {/* Theme Dropdown (Mobile & Tablet) */}
-                <div className='dropdown md:hidden'>
+                <div className='dropdown dropdown-center md:hidden'>
                     <div tabIndex={0} role='button' className='btn btn-ghost'>
                         Theme
                         <svg
@@ -87,7 +87,7 @@ const Navbar = () => {
                 </ul>
 
                 {/* Desktop Theme Dropdown (Right Side) */}
-                <div className='dropdown hidden md:block'>
+                <div className='dropdown dropdown-center hidden md:block'>
                     <div tabIndex={0} role='button' className='btn btn-ghost'>
                         Theme
                         <svg
