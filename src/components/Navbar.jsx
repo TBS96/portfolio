@@ -36,9 +36,7 @@ const Navbar = () => {
         <header className='w-full bg-gray-900/10 backdrop-blur-sm shadow-black/30 shadow-2xl sticky top-0 z-50'>
             <nav className='max-w-7xl mx-auto px-4 py-4 flex justify-between items-center'>
                 {/* Logo */}
-                <h1 className='text-2xl font-bold'>
-                    <Link to='/'>Prantik Ghosh</Link>
-                </h1>
+                <Link to='/' className='btn btn-ghost text-2xl font-bold'>Prantik Ghosh</Link>
 
                 {/* Theme Dropdown (Mobile & Tablet) */}
                 <div className='dropdown dropdown-center md:hidden'>
