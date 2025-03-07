@@ -63,7 +63,7 @@ const Navbar = () => {
                                 <input
                                     type='radio'
                                     name='theme-dropdown'
-                                    className='theme-controller w-full btn btn-sm btn-ghost justify-start'
+                                    className={`theme-controller w-full btn btn-sm btn-ghost justify-start ${theme === t ? 'underline underline-offset-4' : ''}`}
                                     aria-label={t.charAt(0).toUpperCase() + t.slice(1)}
                                     value={t}
                                     checked={theme === t}
@@ -112,7 +112,7 @@ const Navbar = () => {
                                 <input
                                     type='radio'
                                     name='theme-dropdown'
-                                    className='theme-controller w-full btn btn-sm btn-ghost justify-start'
+                                    className={`theme-controller w-full btn btn-sm btn-ghost justify-start ${theme === t ? 'underline underline-offset-4' : ''}`}
                                     aria-label={t.charAt(0).toUpperCase() + t.slice(1)}
                                     value={t}
                                     checked={theme === t}
