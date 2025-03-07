@@ -9,7 +9,7 @@ const Hero = () => {
             <div className='space-y-5 text-center md:text-left max-w-lg'>
                 <p className='text-xl font-semibold mt-4 md:mt-0'>
                     <Typewriter
-                        words={['Hi!', 'Welcome to my digital playground...', 'I\'m Prantik Ghosh.']}
+                        words={['Hi!', 'I\'m Prantik Ghosh.', 'Welcome to my digital playground...',]}
                         loop={Infinity}
                         cursor
                         cursorBlinking={true}
