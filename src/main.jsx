@@ -42,3 +42,7 @@ createRoot(document.getElementById('root')).render(
     <RouterProvider router={router} />
   </Provider>,
 )
+document.addEventListener('copy', (e) => {
+  e.clipboardData.setData('text/plain', 'Copying is strictly prohibited on this website');
+  e.preventDefault();
+})
