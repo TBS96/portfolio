@@ -10,14 +10,14 @@ const Projects = () => {
             thumbnail: 'https://i.ibb.co/3QYnWF8/neuroAI.png',
             linkURL: 'https://neuro-ai-client.vercel.app/',
             description: 'An AI-based web application for mental health. It uses AI to analyze user\'s mental health and provide insights.',
-            techStack: 'React, Vite, TailwindCSS, DaisyUI, Appwrite'
+            techStack: 'React, Vite, Redux-Toolkit, TailwindCSS, DaisyUI, Appwrite'
         },
         {
             name: 'Blogify',
             thumbnail: 'https://i.ibb.co/WN1LFd4k/blogify.png',
             linkURL: 'https://blogify-tbs96.vercel.app/',
             description: 'A blogging platform to create and share blogs.',
-            techStack: 'React, Vite, TailwindCSS, DaisyUI, Appwrite'
+            techStack: 'React, Vite, Redux-Toolkit, TailwindCSS, DaisyUI, Appwrite'
         },
         {
             name: 'Manage Todos',
@@ -31,7 +31,7 @@ const Projects = () => {
             thumbnail: 'https://i.ibb.co/NndWLSyT/manage-Todos-RTK.png',
             linkURL: 'https://tbs96.github.io/manageTodosRTK/',
             description: 'Todo manager with Redux Toolkit for state management.',
-            techStack: 'React, Vite, Redux Toolkit, TailwindCSS'
+            techStack: 'React, Vite, Redux-Toolkit, TailwindCSS'
         },
         {
             name: 'Currency Converter',
