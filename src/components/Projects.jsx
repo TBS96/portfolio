@@ -6,6 +6,13 @@ const Projects = () => {
 
     const projects = [
         {
+            name: 'My Portfolio',
+            thumbnail: 'https://i.ibb.co/5WX9JRdP/portfolio.png',
+            linkURL: 'https://prantikghosh.vercel.app/',
+            description: 'My personal portfolio website to showcase my projects and skills.',
+            techStack: 'React, Vite, TailwindCSS, DaisyUI'
+        },
+        {
             name: 'neuroAI (wip)',
             thumbnail: 'https://i.ibb.co/3QYnWF8/neuroAI.png',
             linkURL: 'https://neuro-ai-client.vercel.app/',
