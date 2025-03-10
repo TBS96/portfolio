@@ -49,7 +49,7 @@ const Projects = () => {
         },
         {
             name: 'Password Strength Checker',
-            thumbnail: 'https://i.ibb.co/39VKP0qF/pass-Gen-strength-Checker.png',
+            thumbnail: 'https://i.ibb.co/ZzPp2nJ5/pass-Gen-strength-Checker.png',
             linkURL: 'https://tbs96.github.io/random-password-generator-strength-checker/',
             description: 'A password generator with strength checker.',
             techStack: 'HTML, CSS, JavaScript'
