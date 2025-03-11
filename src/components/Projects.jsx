@@ -10,11 +10,11 @@ const Projects = () => {
             thumbnail: 'https://i.ibb.co/5WX9JRdP/portfolio.png',
             linkURL: 'https://prantikghosh.vercel.app/',
             description: 'My personal portfolio website to showcase my projects and skills.',
-            techStack: 'React, Vite, TailwindCSS, DaisyUI'
+            techStack: 'React, Vite, TailwindCSS, DaisyUI, PWA'
         },
         {
             name: 'neuroAI (wip)',
-            thumbnail: 'https://i.ibb.co/3QYnWF8/neuroAI.png',
+            thumbnail: 'https://i.ibb.co/Vp2xnZhq/neuroAI.png',
             linkURL: 'https://neuro-ai-client.vercel.app/',
             description: 'An AI-based web application for mental health. It uses AI to analyze user\'s mental health and provide insights.',
             techStack: 'React, Vite, Redux-Toolkit, TailwindCSS, DaisyUI, Appwrite'
@@ -66,6 +66,13 @@ const Projects = () => {
             thumbnail: 'https://i.ibb.co/zHVP9B8P/typing-speed-test.png',
             linkURL: 'https://tbs96.github.io/typing-speed-test/',
             description: 'A typing speed test application with WPM calculation.',
+            techStack: 'HTML, CSS, JavaScript'
+        },
+        {
+            name: 'Typewriter Effect',
+            thumbnail: 'https://i.ibb.co/tMPYX2fF/typewriter-Effect.png',
+            linkURL: 'https://tbs96.github.io/typewriter-effect/',
+            description: 'A typewriter effect application with text change feature.',
             techStack: 'HTML, CSS, JavaScript'
         },
         {
