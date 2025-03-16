@@ -48,6 +48,13 @@ const Projects = () => {
             techStack: 'React, Vite, TailwindCSS'
         },
         {
+            name: 'QR Code Generator',
+            thumbnail: 'https://i.ibb.co/4gSBj1nn/qr-Code-generator.png',
+            linkURL: 'https://tbs96.github.io/qr-code-generator/',
+            description: 'A simple QR Code Generator, for QRCode API',
+            techStack: 'HTML, CSS, JavaScript'
+        },
+        {
             name: 'Password Strength Checker',
             thumbnail: 'https://i.ibb.co/ZzPp2nJ5/pass-Gen-strength-Checker.png',
             linkURL: 'https://tbs96.github.io/random-password-generator-strength-checker/',
