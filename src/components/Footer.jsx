@@ -36,7 +36,7 @@ const Footer = () => {
               <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
             </svg>
           </Link>
-          <Link to='mailto:prantik.g1996@gmail.com' className='btn btn-circle btn-sm btn-primary' target='_blank' title='prantik.g1996@gmail.com'>
+          <Link to='mailto:prantik.fdev@gmail.com' className='btn btn-circle btn-sm btn-primary' target='_blank' title='prantik.g1996@gmail.com'>
             <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M17 6h-2V5h1a1 1 0 1 0 0-2h-2a1 1 0 0 0-1 1v2h-.541A5.965 5.965 0 0 1 14 10v4a1 1 0 1 1-2 0v-4c0-2.206-1.794-4-4-4-.075 0-.148.012-.22.028C7.686 6.022 7.596 6 7.5 6A4.505 4.505 0 0 0 3 10.5V16a1 1 0 0 0 1 1h7v3a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-3h5a1 1 0 0 0 1-1v-6c0-2.206-1.794-4-4-4Zm-9 8.5H7a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2Z"></path></svg>
           </Link>
           <Link to='https://x.com/9theblacksheep6' className='btn btn-circle btn-sm btn-primary' target='_blank' title='X'>
