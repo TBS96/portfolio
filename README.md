@@ -41,7 +41,7 @@ npm run build
 ```
 
 ## 📬 Contact Me
-### 📧 Email: [prantik.g1996@gmail.com](mailto:prantik.g1996@gmail.com)
+### 📧 Email: [prantik.fdev@gmail.com](mailto:prantik.fdev@gmail.com)
 ### 🔗 Portfolio: [https://prantikghosh.vercel.app/](https://prantikghosh.vercel.app/)
 <!-- ### 🐦 Twitter: @yourhandle -->
 ### 👨‍💻 LinkedIn: [https://www.linkedin.com/in/prantikghosh96/](https://www.linkedin.com/in/prantikghosh96/)
