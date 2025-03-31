@@ -1,4 +1,4 @@
-# 🚀 My Portfolio `(wip)`
+# 🚀 My Portfolio
 ## Modern & Interactive Portfolio Website
 Welcome to my personal portfolio! This website showcases my skills, projects, and experiences as a ***Frontend Developer***. Built with the latest technologies to provide a seamless user experience.
 
