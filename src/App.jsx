@@ -8,7 +8,7 @@ const App = () => {
   return (
     <Suspense fallback={
       <div className='grid place-content-center w-full min-h-screen'>
-        <LifeLine easing='ease-in' speedPlus={2} text='Welcome to my Portfolio' size='large' />
+        <LifeLine easing='ease-in' speedPlus={1} text='Welcome to my Portfolio' size='large' />
       </div>
     }>
       <div className='min-h-screen'>
