@@ -10,8 +10,8 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       manifest: {
-        name: "portfolio",
-        short_name: "portfolio",
+        name: "Prantik",
+        short_name: "Prantik",
         start_url: "/",
         display: "standalone",
         background_color: "#ffffff",
