@@ -14,7 +14,7 @@ const Projects = () => {
         },
         {
             name: 'neuroAI (wip)',
-            thumbnail: 'https://i.ibb.co/Vp2xnZhq/neuroAI.png',
+            thumbnail: 'https://i.ibb.co/VYsy7STr/neuroAI.png',
             linkURL: 'https://neuro-ai-client.vercel.app/',
             description: 'An AI-based web application for mental health. It uses AI to analyze user\'s mental health and provide insights.',
             techStack: 'React, Vite, Redux-Toolkit, TailwindCSS, DaisyUI, Appwrite'
