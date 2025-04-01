@@ -3,12 +3,9 @@ import { AboutMe, Hero } from '../components'
 
 const Home = () => {
 
-    useEffect(() => {
-        document.title = 'Prantik Ghosh | Home'
-    });
-
     return (
         <>
+            <title>Prantik Ghosh | Home</title>
             <Hero />
             <AboutMe />
         </>
