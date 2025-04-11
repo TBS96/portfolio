@@ -5,6 +5,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import store from './store/store.js'
 import { lazy } from 'react'
+import Aos from 'aos'
+
+Aos.init();
 
 const Home = lazy(() => import('./pages/Home.jsx'));
 const Skills = lazy(() => import('./pages/Skills.jsx'));

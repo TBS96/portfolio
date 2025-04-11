@@ -7,7 +7,7 @@ const Hero = () => {
         <section className='min-h-screen relative flex flex-col-reverse md:flex-row items-center justify-center md:justify-between px-6 md:px-12 lg:px-24 pb-10 bg-blue-900/30 shadow-2xs hover:shadow-2xl transition'>
 
             <div className='space-y-5 text-center md:text-left max-w-lg'>
-                <p className='text-xl font-semibold mt-4 md:mt-0'>
+                <p className='text-xl font-semibold mt-4 md:mt-0' data-aos='fade-down' data-aos-delay='700'>
                     <Typewriter
                         words={['Hi!', 'I\'m Prantik Ghosh.', 'Welcome to my digital playground...',]}
                         loop={Infinity}
@@ -18,7 +18,7 @@ const Hero = () => {
                         deleteSpeed={70}
                     />
                 </p>
-                <h1 className='text-2xl md:text-4xl font-bold'>I'm a <h2 className='text-red-500'>
+                <h1 className='text-2xl md:text-4xl font-bold'>I'm a <p className='text-red-500' data-aos='fade-up' data-aos-delay='700'>
                     <Typewriter
                         words={['Front-End Web', 'React.js']}
                         loop={Infinity}
@@ -29,7 +29,7 @@ const Hero = () => {
                         delaySpeed={1200}
                         deleteSpeed={70}
                     />
-                </h2>Developer</h1>
+                </p>Developer</h1>
                 <p>Willing to work as a <span className='font-bold text-red-500'>
                     <Typewriter
                         words={['full-time', 'freelance']}
@@ -101,7 +101,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className='relative w-full md:w-[400px] mt-10 md:mt-0 flex justify-center'>
+            <div className='relative w-full md:w-[400px] mt-10 md:mt-0 flex justify-center' data-aos='zoom-in-right' data-aos-delay='700'>
                 <div className='absolute size-full bg-indigo-600/60 rounded-full blur-3xl left-10 top-10 -translate-x-5 translate-y-5 md:-translate-x-8 md:translate-y-8'></div>
 
                 <img src="/profile.svg" alt="profile" className='size-full object-cover rounded-full shadow-lg hover:shadow-2xl relative z-10' />
