@@ -19,6 +19,7 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 - 🎨 **DaisyUI 5** – Tailwind CSS components library
 - 🔄 **React Router** – For smooth navigation  
 - 🗂️ **Redux Toolkit** – State management
+- 🗂️ **Vite PWA** – Progressive Web App to give users native experience
 
 
 ## 🚀 Installation & Setup
