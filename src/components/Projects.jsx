@@ -175,8 +175,8 @@ const Projects = () => {
     return (
         <section className='py-16 shadow-2xs hover:shadow-2xl transition glass rounded-sm'>
             <div className='container mx-auto px-5'>
-                <h2 className='text-4xl font-bold text-center text-error mb-5'>Projects</h2>
-                <p className='text-info font-semibold text-center mb-10 animate-pulse'>
+                <h2 className='text-4xl font-bold text-center text-error mb-5' data-aos='fade-up'>Projects</h2>
+                <p className='text-info font-semibold text-center mb-10 animate-pulse' data-aos='fade-down'>
                     Click each of <span className='text-fuchsia-500'>{projects.length}</span> projects to visit!
                 </p>
 
