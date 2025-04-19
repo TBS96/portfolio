@@ -1,10 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 
 const Contact = () => {
 
     const contactDetails = [
         {
+            id: 1,
             label: 'Email',
             value: 'prantik.fdev@gmail.com',
             icon: (
@@ -15,6 +15,7 @@ const Contact = () => {
             link: 'mailto:prantik.fdev@gmail.com'
         },
         {
+            id: 2,
             label: 'Phone',
             value: '+91-8910325359',
             icon: (
@@ -25,6 +26,7 @@ const Contact = () => {
             link: 'tel:+91-8910325359'
         },
         {
+            id: 3,
             label: 'Location',
             value: 'Kolkata, India',
             icon: (
@@ -39,6 +41,7 @@ const Contact = () => {
 
     const socialMedia = [
         {
+            id: 1,
             name: 'GitHub',
             url: 'https://github.com/TBS96',
             icon: (
@@ -48,6 +51,7 @@ const Contact = () => {
             )
         },
         {
+            id: 2,
             name: 'LinkedIn',
             url: 'https://www.linkedin.com/in/prantikghosh96/',
             icon: (
@@ -57,6 +61,7 @@ const Contact = () => {
             )
         },
         {
+            id: 3,
             name: 'WhatsApp',
             url: 'https://wa.me/918910325359',
             icon: (
@@ -66,6 +71,7 @@ const Contact = () => {
             )
         },
         {
+            id: 4,
             name: 'X',
             url: 'https://x.com/9theblacksheep6',
             icon: (
@@ -73,6 +79,7 @@ const Contact = () => {
             )
         },
         {
+            id: 5,
             name: 'Facebook',
             url: 'https://www.facebook.com/theblacksheep96/',
             icon: (
@@ -86,16 +93,19 @@ const Contact = () => {
             <div className="card w-full max-w-2xl bg-base-100/30 shadow-xl hover:shadow-2xl transition-shadow duration-300">
 
                 <div className="card-body">
-                    <h2 className="card-titl text-3xl font-bold text-center mb-6 text-info/70 animate-bounce">Let's Connect!</h2>
+                    <h2 className="text-3xl font-bold text-center mb-6 text-info/70 animate-bounce">Let's Connect!</h2>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        {contactDetails.map(({ icon, label, link, value }, index) => (
-                            <div key={index} className="flex items-center space-x-4 p-4 rounded-lg hover:bg-base-300 transition-colors glass">
+                        {contactDetails.map(({ icon, label, link, value, id }) => (
+                            <div
+                                key={id}
+                                className="flex items-center space-x-4 p-4 rounded-lg hover:bg-base-300 transition-colors glass"
+                            >
                                 {icon}
                                 <div>
                                     <h3 className="font-semibold">{label}</h3>
                                     {link ? (
-                                        <Link to={link} target='_blank' className="link link-primary">{value}</Link>
+                                        <a href={link} target='_blank' className="link link-primary">{value}</a>
                                     ) : (
                                         <p className="text-base-content/80">{value}</p>
                                     )}
@@ -108,10 +118,17 @@ const Contact = () => {
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
                             </svg>
 
-                            {socialMedia.map((social, index) => (
-                                <Link key={index} to={social.url} target="_blank" rel="noopener noreferrer" className="btn btn-circle btn-sm btn-primary">
-                                    {social.icon}
-                                </Link>
+                            {socialMedia.map(({ icon, name, url, id }) => (
+                                <a
+                                    key={id}
+                                    href={url}
+                                    title={name}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className='btn btn-circle btn-sm btn-primary'
+                                >
+                                    {icon}
+                                </a>
                             ))}
                         </div>
                     </div>
