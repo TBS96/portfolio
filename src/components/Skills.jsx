@@ -173,30 +173,31 @@ const Skills = () => {
                 {/* <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 justify-center items-center'> */}
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 justify-center items-center'>
                     {skills.map(({ id, name, icon, linkURL }) => {
-                        const aosAnimations = ['fade-up', 'fade-down', 'zoom-in', 'zoom-in-right', 'zoom-out', 'flip-down'];
+                        const aosAnimations = ['fade-up', 'fade-down', 'zoom-in', 'zoom-in-right', 'zoom-out'];
                         const aos = aosAnimations[id % aosAnimations.length];
                         return (
-                        <div 
-                            key={id} 
-                            data-aos={aos}
-                            onClick={() => handleSkillClick(id)} 
-                            className='relative flex flex-col items-center gap-2 p-4 card shadow-lg hover:shadow-2xl transition w-full h-36 overflow-hidden glass cursor-pointer'>
+                            <div key={id} data-aos={aos}>
+                                <div
+                                    onClick={() => handleSkillClick(id)}
+                                    className='relative flex flex-col items-center gap-2 p-4 card shadow-lg hover:shadow-2xl w-full h-36 overflow-hidden glass cursor-pointer hover:-translate-y-1 transition-all'>
 
-                            <div className={`flex flex-col items-center transition duration-300 ${activeSkill === id ? 'blur-md opacity-30' : ''}`}>
-                                <img src={icon} alt={name} className='size-20 object-contain' />
-                                <p className='text-lg font-semibold'>{name}</p>
-                            </div>
+                                    <div className={`flex flex-col items-center transition duration-300 ${activeSkill === id ? 'blur-md opacity-30' : ''}`}>
+                                        <img src={icon} alt={name} className='size-20 object-contain' />
+                                        <p className='text-lg font-semibold'>{name}</p>
+                                    </div>
 
-                            {activeSkill === id && (
-                                <div className='absolute inset-0 flex justify-center items-center text-xl font-bold'>
-                                    <Link to={linkURL} target='_blank'>
-                                        Visit: <span className='text-error'>{linkURL.replace(linkURL, name)}</span>
-                                    </Link>
+                                    {activeSkill === id && (
+                                        <div className='absolute inset-0 flex justify-center items-center text-xl font-bold'>
+                                            <Link to={linkURL} target='_blank'>
+                                                Visit: <span className='text-error'>{linkURL.replace(linkURL, name)}</span>
+                                            </Link>
+                                        </div>
+                                    )}
+
                                 </div>
-                            )}
-
-                        </div>
-                    )})}
+                            </div>
+                        )
+                    })}
                 </div>
 
             </div>
