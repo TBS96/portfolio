@@ -6,6 +6,7 @@ const Projects = () => {
 
     const projects = [
         {
+            id: 1,
             name: 'My Portfolio',
             thumbnail: 'https://i.ibb.co/5WX9JRdP/portfolio.png',
             linkURL: 'https://prantikghosh.vercel.app/',
@@ -13,6 +14,7 @@ const Projects = () => {
             techStack: 'React, Vite, TailwindCSS, DaisyUI, PWA'
         },
         {
+            id: 2,
             name: 'neuroAI (wip)',
             thumbnail: 'https://i.ibb.co/VYsy7STr/neuroAI.png',
             linkURL: 'https://neuro-ai-client.vercel.app/',
@@ -20,6 +22,7 @@ const Projects = () => {
             techStack: 'React, Vite, Redux-Toolkit, TailwindCSS, DaisyUI, Appwrite'
         },
         {
+            id: 3,
             name: 'Blogify',
             thumbnail: 'https://i.ibb.co/WN1LFd4k/blogify.png',
             linkURL: 'https://blogify-tbs96.vercel.app/',
@@ -27,6 +30,7 @@ const Projects = () => {
             techStack: 'React, Vite, Redux-Toolkit, TailwindCSS, DaisyUI, Appwrite'
         },
         {
+            id: 4,
             name: 'Manage Todos',
             thumbnail: 'https://i.ibb.co/r2gXbvtV/manage-Todos.png',
             linkURL: 'https://tbs96.github.io/manageTodos/',
@@ -34,6 +38,7 @@ const Projects = () => {
             techStack: 'React, Vite, TailwindCSS'
         },
         {
+            id: 5,
             name: 'Manage Todos with Redux Toolkit',
             thumbnail: 'https://i.ibb.co/NndWLSyT/manage-Todos-RTK.png',
             linkURL: 'https://tbs96.github.io/manageTodosRTK/',
@@ -41,6 +46,7 @@ const Projects = () => {
             techStack: 'React, Vite, Redux-Toolkit, TailwindCSS'
         },
         {
+            id: 6,
             name: 'Currency Converter',
             thumbnail: 'https://i.ibb.co/1Gp8gbWs/currency-Converter.png',
             linkURL: 'https://tbs96.github.io/currencyConverterReact/',
@@ -48,6 +54,7 @@ const Projects = () => {
             techStack: 'React, Vite, TailwindCSS'
         },
         {
+            id: 7,
             name: 'QR Code Generator',
             thumbnail: 'https://i.ibb.co/4gSBj1nn/qr-Code-generator.png',
             linkURL: 'https://tbs96.github.io/qr-code-generator/',
@@ -55,6 +62,7 @@ const Projects = () => {
             techStack: 'HTML, CSS, JavaScript'
         },
         {
+            id: 8,
             name: 'Password Strength Checker',
             thumbnail: 'https://i.ibb.co/ZzPp2nJ5/pass-Gen-strength-Checker.png',
             linkURL: 'https://tbs96.github.io/random-password-generator-strength-checker/',
@@ -62,6 +70,7 @@ const Projects = () => {
             techStack: 'HTML, CSS, JavaScript'
         },
         {
+            id: 9,
             name: 'Mini E-commerce',
             thumbnail: 'https://i.ibb.co/5PPwzZM/mini-ecommerce.png',
             linkURL: 'https://tbs96.github.io/mini-ecommerce/',
@@ -69,6 +78,7 @@ const Projects = () => {
             techStack: 'HTML, CSS, JavaScript'
         },
         {
+            id: 10,
             name: 'Typing Speed Test',
             thumbnail: 'https://i.ibb.co/zHVP9B8P/typing-speed-test.png',
             linkURL: 'https://tbs96.github.io/typing-speed-test/',
@@ -76,6 +86,7 @@ const Projects = () => {
             techStack: 'HTML, CSS, JavaScript'
         },
         {
+            id: 11,
             name: 'Typewriter Effect',
             thumbnail: 'https://i.ibb.co/tMPYX2fF/typewriter-Effect.png',
             linkURL: 'https://tbs96.github.io/typewriter-effect/',
@@ -83,6 +94,7 @@ const Projects = () => {
             techStack: 'HTML, CSS, JavaScript'
         },
         {
+            id: 12,
             name: 'Recipe Finder',
             thumbnail: 'https://i.ibb.co/pv67z2yB/recipe-finder.png',
             linkURL: 'https://tbs96.github.io/recipe-finder-app/',
@@ -90,6 +102,7 @@ const Projects = () => {
             techStack: 'HTML, CSS, JavaScript'
         },
         {
+            id: 13,
             name: 'BMI Calculator',
             thumbnail: 'https://i.ibb.co/G3NzqwLh/bmi-calculator.png',
             linkURL: 'https://tbs96.github.io/bmi-calculator/',
@@ -97,6 +110,7 @@ const Projects = () => {
             techStack: 'HTML, CSS, JavaScript'
         },
         {
+            id: 14,
             name: 'Manual Image Slider',
             thumbnail: 'https://i.ibb.co/ccbtpn5f/image-slider.png',
             linkURL: 'https://tbs96.github.io/image-slider/',
@@ -104,6 +118,7 @@ const Projects = () => {
             techStack: 'HTML, CSS, JavaScript'
         },
         {
+            id: 15,
             name: 'Restaurant Tip Calculator',
             thumbnail: 'https://i.ibb.co/RTw1t5SS/restaurant-tip-calculator.png',
             linkURL: 'https://tbs96.github.io/restaurant-tip-calculator/',
@@ -111,6 +126,7 @@ const Projects = () => {
             techStack: 'HTML, CSS, JavaScript'
         },
         {
+            id: 16,
             name: 'Random Password Generator',
             thumbnail: 'https://i.ibb.co/tMgzNBP8/random-password-generator.png',
             linkURL: 'https://tbs96.github.io/random-password-generator/',
@@ -118,6 +134,7 @@ const Projects = () => {
             techStack: 'HTML, CSS, JavaScript, Bootstrap'
         },
         {
+            id: 17,
             name: 'Gool Gool Weather',
             thumbnail: 'https://i.ibb.co/zVmV1tFY/weather-app.png',
             linkURL: 'https://tbs96.github.io/weather-app/',
@@ -125,6 +142,7 @@ const Projects = () => {
             techStack: 'HTML, CSS, JavaScript'
         },
         {
+            id: 18,
             name: 'Dynamic Todo List',
             thumbnail: 'https://i.ibb.co/gxrJxWP/dynamic-todo-list.png',
             linkURL: 'https://tbs96.github.io/dynamic-to-do-list/',
@@ -132,6 +150,7 @@ const Projects = () => {
             techStack: 'HTML, CSS, JavaScript'
         },
         {
+            id: 19,
             name: 'Image to Text Converter',
             thumbnail: 'https://i.ibb.co/cK6BZ6sW/img-to-text-converter.png',
             linkURL: 'https://tbs96.github.io/img-to-text-converter-app/',
@@ -139,6 +158,7 @@ const Projects = () => {
             techStack: 'HTML, CSS, JavaScript, Tesseract.js'
         },
         {
+            id: 20,
             name: 'Mindful Breathing Timer',
             thumbnail: 'https://i.ibb.co/8n72T0Mh/mindful-breathing-timer.png',
             linkURL: 'https://tbs96.github.io/mindful-breathing-timer/',
@@ -146,6 +166,7 @@ const Projects = () => {
             techStack: 'HTML, CSS, JavaScript'
         },
         {
+            id: 21,
             name: 'Random Color Code Generator',
             thumbnail: 'https://i.ibb.co/bMF8GshQ/rgb-color-Code-generator.png',
             linkURL: 'https://tbs96.github.io/random-rgb-color-generator/',
@@ -153,6 +174,7 @@ const Projects = () => {
             techStack: 'HTML, CSS, JavaScript'
         },
         {
+            id: 22,
             name: 'E-commerce Website (Layout)',
             thumbnail: 'https://i.ibb.co/WvRSYLRy/ecommerce-layout.png',
             linkURL: 'https://tbs96.github.io/bootstrap-project-1/',
@@ -160,6 +182,7 @@ const Projects = () => {
             techStack: 'HTML, CSS, Bootstrap'
         },
         {
+            id: 23,
             name: 'Smart-Coders (Layout)',
             thumbnail: 'https://i.ibb.co/ds0kGwj9/smart-coders-layout.png',
             linkURL: 'https://tbs96.github.io/tailwindcss-project-1-dist/',
@@ -181,18 +204,18 @@ const Projects = () => {
                 </p>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center items-center'>
-                    {projects.map(({ name, thumbnail, linkURL, description, techStack }, index) => (
+                    {projects.map(({ name, thumbnail, linkURL, description, techStack, id }, ) => (
                         <div
-                            key={index}
-                            onClick={() => handleProjectClick(index)}
+                            key={id}
+                            onClick={() => handleProjectClick(id)}
                             className='relative flex flex-col items-center gap-2 p-4 rounded-xl shadow-2xl hover:shadow-base-300 transition size-full overflow-hidden glass cursor-pointer'
                         >
-                            <div className={`flex flex-col items-center transition duration-300 ${activeProject === index ? 'blur-md opacity-30' : ''}`}>
+                            <div className={`flex flex-col items-center transition duration-300 ${activeProject === id ? 'blur-md opacity-30' : ''}`}>
                                 <img src={thumbnail} alt={name} className='w-full h-48 rounded-xl hover:shadow-inner' />
                                 <p className='text-lg font-semibold'>{name}</p>
                             </div>
 
-                            {activeProject === index && (
+                            {activeProject === id && (
                                 <div className='absolute inset-0 flex flex-col justify-center items-center text-center p-4 bg-black/70 rounded-xl text-white'>
                                     <h3 className='text-xl font-bold text-error'>{name}</h3>
                                     <p className='text-sm text-gray-300'>{description}</p>
