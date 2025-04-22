@@ -205,7 +205,7 @@ const Projects = () => {
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center items-center'>
                     {projects.map(({ name, thumbnail, linkURL, description, techStack, id }) => {
-                        const aosAnimations = ['zoom-out', 'zoom-in-right', 'zoom-in', 'fade-down', 'fade-up'];
+                        const aosAnimations = ['zoom-in-right', 'fade-up-right', 'fade-right', 'fade-down', 'fade-up'];
                         const aos = aosAnimations[id % aosAnimations.length];
                         return (
                             <div key={id} data-aos={aos}>
