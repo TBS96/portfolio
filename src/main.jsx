@@ -13,11 +13,13 @@ const Home = lazy(() => import('./pages/Home.jsx'));
 const Skills = lazy(() => import('./pages/Skills.jsx'));
 const Projects = lazy(() => import('./pages/Projects.jsx'));
 const Contact = lazy(() => import('./pages/Contact.jsx'));
+const Error = lazy(() => import('./pages/Error.jsx'));
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    errorElement: <Error />,
     children: [
       {
         // path: '/',

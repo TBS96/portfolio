@@ -6,6 +6,7 @@ import AboutMe from "./AboutMe";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Error from "./Error";
 
 export {
     Navbar,
@@ -15,5 +16,6 @@ export {
     AboutMe,
     Skills,
     Projects,
-    Contact
+    Contact,
+    Error
 }
