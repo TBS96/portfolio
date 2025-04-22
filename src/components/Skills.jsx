@@ -176,7 +176,7 @@ const Skills = () => {
                         const aosAnimations = ['fade-up', 'fade-down', 'fade-right', 'fade-up-right', 'zoom-in-right',];
                         const aos = aosAnimations[id % aosAnimations.length];
                         return (
-                            <div key={id} data-aos={aos}>
+                            <div key={id} data-aos={aos} data-aos-duration={1100}>
                                 <div
                                     onClick={() => handleSkillClick(id)}
                                     className='relative flex flex-col items-center gap-2 p-4 card shadow-lg hover:shadow-2xl w-full h-36 overflow-hidden glass cursor-pointer hover:-translate-y-1 transition-all'>
