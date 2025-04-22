@@ -208,7 +208,7 @@ const Projects = () => {
                         const aosAnimations = ['zoom-in-right', 'fade-up-right', 'fade-right', 'fade-down', 'fade-up'];
                         const aos = aosAnimations[id % aosAnimations.length];
                         return (
-                            <div key={id} data-aos={aos}>
+                            <div key={id} data-aos={aos} data-aos-duration={1100}>
                                 <div 
                                     onClick={() => handleProjectClick(id)}
                                     className='relative flex flex-col items-center gap-2 p-4 rounded-xl shadow-2xl hover:shadow-base-300 size-full overflow-hidden glass cursor-pointer hover:-translate-y-1 transition-all'
