@@ -173,7 +173,7 @@ const Skills = () => {
                 {/* <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 justify-center items-center'> */}
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 justify-center items-center'>
                     {skills.map(({ id, name, icon, linkURL }) => {
-                        const aosAnimations = ['fade-up', 'fade-down', 'zoom-in', 'zoom-in-right', 'zoom-out'];
+                        const aosAnimations = ['fade-up', 'fade-down', 'fade-right', 'fade-up-right', 'zoom-in-right',];
                         const aos = aosAnimations[id % aosAnimations.length];
                         return (
                             <div key={id} data-aos={aos}>
