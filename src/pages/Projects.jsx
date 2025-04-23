@@ -3,9 +3,12 @@ import { Projects as ProjectsPage } from '../components'
 
 const Projects = () => {
 
+    useEffect(() => {
+        document.title = 'Prantik Ghosh | Projects';
+    }, []);
+
     return (
         <>
-            <title>Prantik Ghosh | Projects</title>
             <ProjectsPage />
         </>
     )
