@@ -7,7 +7,7 @@ const Hero = () => {
         <section className='min-h-screen relative flex flex-col-reverse md:flex-row items-center justify-center md:justify-between px-6 md:px-12 lg:px-24 pb-10 bg-blue-900/30 shadow-2xs hover:shadow-2xl transition'>
 
             <div className='space-y-5 text-center md:text-left max-w-lg'>
-                <p className='text-xl font-semibold mt-4 md:mt-0' data-aos='fade-down' data-aos-delay='700' data-aos-duration={1100}>
+                <p className='text-xl font-semibold mt-4 md:mt-0'>
                     <Typewriter
                         words={['Hi!', 'I\'m Prantik Ghosh.', 'Welcome to my digital playground...',]}
                         loop={Infinity}
@@ -18,7 +18,7 @@ const Hero = () => {
                         deleteSpeed={70}
                     />
                 </p>
-                <h1 className='text-2xl md:text-4xl font-bold'>I'm a <p className='text-red-500' data-aos='fade-up' data-aos-delay='700' data-aos-duration={1100}>
+                <h1 className='text-2xl md:text-4xl font-bold'><span data-aos-delay='700' data-aos-duration={1100}>I'm a </span> <p className='text-red-500'>
                     <Typewriter
                         words={['Front-End Web', 'React.js']}
                         loop={Infinity}
@@ -29,7 +29,7 @@ const Hero = () => {
                         delaySpeed={1200}
                         deleteSpeed={70}
                     />
-                </p>Developer</h1>
+                </p><span data-aos-delay='700' data-aos-duration={1100}>Developer</span></h1>
                 <p>Willing to work as a <span className='font-bold text-red-500'>
                     <Typewriter
                         words={['full-time', 'freelance']}
