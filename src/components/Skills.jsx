@@ -44,7 +44,7 @@ const Skills = () => {
         },
         {
             id: 7,
-            name: 'Redux',
+            name: 'Redux-Toolkit',
             icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg',
             linkURL: 'https://redux-toolkit.js.org/introduction/getting-started'
         },

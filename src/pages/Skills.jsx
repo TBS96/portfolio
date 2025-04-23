@@ -3,9 +3,12 @@ import { Skills as SkillsComponent } from '../components'
 
 const Skills = () => {
 
+    useEffect(() => {
+        document.title = 'Pranitk Ghosh | Skills';
+    }, []);
+
     return (
         <>
-            <title>Prantik Ghosh | Skills</title>
             <SkillsComponent />
         </>
     )
