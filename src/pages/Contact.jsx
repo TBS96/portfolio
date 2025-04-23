@@ -3,9 +3,12 @@ import { Contact as ContactPage } from '../components'
 
 const Contact = () => {
 
+    useEffect(() => {
+        document.title = 'Prantik Ghosh | Contact';
+    }, []);
+
     return (
         <>
-            <title>Prantik Ghosh | Contact</title>
             <ContactPage />
         </>
     )
