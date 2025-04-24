@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutMe = () => {
     return (
-        <section className='py-16 px-6 md:px-20 font-medium my-5 shadow-2xs hover:shadow-2xl transition glass'>
+        <section className='py-16 px-6 md:px-20 font-medium my-5 shadow-2xs hover:shadow-2xl transition glass rounded-sm'>
 
             <div className='max-w-5xl mx-auto bg-gray-800/10 p-6 rounded-lg shadow-lg mb-6'>
 

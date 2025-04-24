@@ -164,7 +164,7 @@ const Skills = () => {
     };
 
     return (
-        <section className='py-16 bg-gray-900/30 shadow-2xs hover:shadow-2xl transition'>
+        <section className='py-16 bg-gray-900/30 shadow-2xs hover:shadow-2xl transition rounded-sm'>
             <div className='container mx-auto px-5'>
 
                 <h2 className='text-4xl font-bold text-center text-error mb-5' data-aos='fade-up'>Skills / Tech Stack</h2>
