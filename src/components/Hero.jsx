@@ -46,7 +46,7 @@ const Hero = () => {
                 </span> developer.</p>
 
                 <div data-aos='fade-down' data-aos-delay='700' data-aos-duration={1100} className='mt-10'>
-                    <a href="https://drive.proton.me/urls/1AHEW7CFY0#TRik3VmyV64I" target='_blank' className='btn px-6 py-5 text-lg bg-red-500 hover:outline-dashed hover:bg-red-600/20 focus:bg-red-700/40 shadow-lg shadow-red-400 hover:shadow-red-500 focus:shadow-red-600 transition outline group'>
+                    <a href="https://drive.proton.me/urls/1AHEW7CFY0#TRik3VmyV64I" target='_blank' className='btn px-6 py-5 text-lg bg-red-500 hover:outline-dashed hover:bg-red-600/20 focus:bg-red-700/40 shadow-lg shadow-red-400 hover:shadow-red-500 focus:shadow-red-600 transition outline group' title='View | Download Resume'>
                         Resume <ArrowRight className='animate-pulse group-hover:animate-none transition-all duration-300 group-hover:translate-x-3' />
                     </a>
                 </div>
@@ -63,7 +63,7 @@ const Hero = () => {
                         </Link>
                     </div>
                     <div data-aos='fade-right' data-aos-delay='700' data-aos-duration={1500}>
-                        <Link to='mailto:prantik.fdev@gmail.com' className='btn btn-circle btn-soft btn-primary hover:translate-x-1 hover:-translate-y-1 transition-all duration-200 ease-in-out' target='_blank' title='prantik.g1996@gmail.com'>
+                        <Link to='mailto:prantik.fdev@gmail.com' className='btn btn-circle btn-soft btn-primary hover:translate-x-1 hover:-translate-y-1 transition-all duration-200 ease-in-out' target='_blank' title='prantik.fdev@gmail.com'>
                             <Mail />
                         </Link>
                     </div>
