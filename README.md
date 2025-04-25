@@ -9,7 +9,8 @@ Welcome to my personal portfolio! This website showcases my skills, projects, an
 ***✅ Smooth Animations – Enhanced user experience*** <br>
 ***✅ Fast Performance – Optimized with React & Vite*** <br>
 ***✅ Projects Showcase – Display of my best works*** <br>
-***✅ Contact Form – Reach out to me directly***
+***✅ Contact Form – Reach out to me directly*** <br>
+***✅ SEO Optimized – Improved visibility on search engines***
 
 ## 🛠️ Tech Stack  
 ### **Frontend:** 
