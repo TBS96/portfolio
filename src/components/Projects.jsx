@@ -60,7 +60,7 @@ const Projects = () => {
                                     className='relative flex flex-col items-center gap-2 p-4 rounded-xl shadow-2xl hover:shadow-base-300 size-full overflow-hidden glass cursor-pointer hover:-translate-y-1 transition-all duration-300'
                                 >
                                     <div className={`flex flex-col items-center transition duration-300 ${activeProject === id ? 'blur-md opacity-30' : ''}`}>
-                                        <img src={thumbnail} alt={name} className='w-full h-48 rounded-xl hover:shadow-inner' />
+                                        <img src={thumbnail} alt={name} loading='lazy' className='w-full h-48 rounded-xl hover:shadow-inner' />
                                         <p className='text-lg font-semibold'>{name}</p>
                                     </div>
 
