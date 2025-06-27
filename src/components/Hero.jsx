@@ -46,7 +46,7 @@ const Hero = () => {
                 </span> developer.</p>
 
                 <div data-aos='fade-down' data-aos-delay='700' data-aos-duration={1100} className='mt-10'>
-                    <a href="https://drive.proton.me/urls/1AHEW7CFY0#TRik3VmyV64I" target='_blank' className='btn px-6 py-5 text-lg bg-red-500 hover:outline-dashed hover:bg-red-600/20 focus:bg-red-700/40 shadow-lg shadow-red-400 hover:shadow-red-500 focus:shadow-red-600 transition outline group' title='View | Download Resume'>
+                    <a href="https://drive.proton.me/urls/77GCST2PR4#ITD4t8ZrTk8n" target='_blank' className='btn px-6 py-5 text-lg bg-red-500 hover:outline-dashed hover:bg-red-600/20 focus:bg-red-700/40 shadow-lg shadow-red-400 hover:shadow-red-500 focus:shadow-red-600 transition outline group' title='View | Download Resume'>
                         Resume <ArrowRight className='animate-pulse group-hover:animate-none transition-all duration-300 group-hover:translate-x-3' />
                     </a>
                 </div>
